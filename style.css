@@ -1,3 +1,6 @@
+body {
+    background-color: rgba(212, 238, 247, 0.5);
+}
 #calculator {
     border: 1px solid #ccc;
     border-radius: 15px;
@@ -23,6 +26,7 @@
 }
 
 button {
+    cursor: pointer;
     height: 40px;
     border-radius: 10px;
     border: 1px solid #c4c4c4;
@@ -31,6 +35,9 @@ button {
     color: #333;
 }
 
+button:hover {
+    box-shadow: 1px 1px 10px #337cac;
+}
 .operator {
     color: #337cac;
 }
